@@ -9,7 +9,7 @@ NotyApp - A note app using Room database & MVVM Architecture with Widget Feature
 
 |                                       Splash Screen                |                            Notes                            |                            Widget Feature                             |
 | :------------------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------: |
-| <img src="https://drive.google.com/file/d/17Ky8C7yteEubssbn8Vl3c0Vi6f1HaZAj/view?usp=drive_link" width=272 height=auto>  | <img src="[img/2.jpg](https://drive.google.com/file/d/1N6NfEOBYrhU9H_LTLv0HDGGlgkjpUZhB/view?usp=drive_link)" width=272 height=auto> | <img src="[img/3.jpg](https://drive.google.com/file/d/1a6FFQaRCVIXPUyJlfNSxXay9Q6lKIFLf/view?usp=drive_link)" width=272 height=auto>  |
+| <img src="https://drive.google.com/file/d/17Ky8C7yteEubssbn8Vl3c0Vi6f1HaZAj/view?usp=drive_link" width=272 height=auto>  | <img src="[https://drive.google.com/file/d/1N6NfEOBYrhU9H_LTLv0HDGGlgkjpUZhB/view?usp=drive_link]" width=272 height=auto> | <img src="https://drive.google.com/file/d/1a6FFQaRCVIXPUyJlfNSxXay9Q6lKIFLf/view?usp=sharing" width=272 height=auto>  |
 
 
 ## Dependencies 
