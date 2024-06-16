@@ -1,7 +1,7 @@
 ## General
 NotyApp - A note app using Room database & MVVM Architecture with Widget Features
 
-<a id="raw-url" href="apk/Notes App MVVM.apk?raw=true"><img src="![Uploading Logo.png…]()"  width="180" height=auto>
+<a id="raw-url" href="apk/Notes App MVVM.apk?raw=true"><img src="https://github.com/avilmahrin00/NotyApps/assets/112049376/6e7f13d3-77d7-4200-88a9-b1079d696c1d"  width="180" height=auto>
 </a>
 
 
