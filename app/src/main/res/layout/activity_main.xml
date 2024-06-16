@@ -7,6 +7,9 @@
     android:orientation="vertical"
     tools:context=".ui.mainActivity.MainActivity">
 
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
 
         <fragment
             android:id="@+id/fragmentContainerView"
@@ -16,7 +19,5 @@
             android:layout_weight="1"
             app:defaultNavHost="true"
             app:navGraph="@navigation/nav_graph" />
-
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

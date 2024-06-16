@@ -4,16 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bac_color"
+    android:background="@drawable/gradientbg"
     tools:context=".ui.fragment.CreateNoteFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image3"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Buat\n#Catetan!"
+        android:textSize="30dp"
+        android:fontFamily="@font/atypbold"
+        android:textColor="@color/white"
+        android:gravity="right" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp">
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
 
         <EditText
             android:id="@+id/editTitle"
@@ -21,12 +43,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/edit_text_shape"
-            android:fontFamily="@font/regular"
-            android:hint="Title.."
+            android:fontFamily="@font/jktregular"
+            android:hint="Judul.."
             android:maxLines="1"
             android:padding="15dp"
-            android:textColor="@color/white"
-            android:textColorHint="#D1D1D1" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor" />
 
         <EditText
             android:id="@+id/editSubtitle"
@@ -34,59 +56,56 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/edit_text_shape"
-            android:fontFamily="@font/regular"
-            android:hint="Subtitle.."
+            android:fontFamily="@font/jktregular"
+            android:hint="Tenggat (dd/mm/yyyy).."
             android:maxLines="1"
             android:padding="15dp"
-            android:textColor="@color/white"
-            android:textColorHint="#D1D1D1" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:gravity="end"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/pGreen"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@drawable/green" />
 
             <ImageView
                 android:id="@+id/pYellow"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/yellow" />
 
             <ImageView
                 android:id="@+id/pRed"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/red" />
 
-
-
-
-
         </LinearLayout>
 
-        <EditText
-            android:id="@+id/editTextNotes"
-            android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/edit_text_shape"
-            android:fontFamily="@font/regular"
-            android:gravity="start"
-            android:hint="Notes.."
-            android:padding="15dp"
-            android:textColor="@color/white"
-            android:textColorHint="#D1D1D1" />
+            <EditText
+                android:id="@+id/editTextNotes"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_shape"
+                android:fontFamily="@font/regular"
+                android:gravity="start"
+                android:hint="Catatan.."
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
 
-    </LinearLayout>
+        </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnSave"
@@ -94,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/red_color"
+        android:backgroundTint="@color/style_color"
         android:src="@drawable/ic_baseline_done_24"
         app:tint="@color/white" />
 
